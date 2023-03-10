@@ -50,6 +50,10 @@ charNum = prompt ("How many characters do you want in your password?  Please cho
         else {
           alert ("Your password will NOT have special characters.");
         }
+
+      if (containsLowerCase === false && containsUpperCase === false && containsNum === false && containsSpecialChar === false) {
+        return "Please choose at least one character type."
+      }
   
 
   
