@@ -19,7 +19,7 @@ charNum = prompt ("How many characters do you want in your password?  Please cho
     alert ("Your password will be " + charNum + " characters long.")
   }
   
-  containsLowerCase = confirm("Do you want lower case letters?");
+  containsLowerCase = confirm ("Do you want lower case letters?");
     if (containsLowerCase) {
       var changeLowerCase = alert ("Your password will have lower case letters.");
     } 
@@ -27,13 +27,22 @@ charNum = prompt ("How many characters do you want in your password?  Please cho
       alert ("Your password will NOT have lower case letters")
     }
 
-    containsUpperCase = confirm("Do you want upper case letters?");
+    containsUpperCase = confirm ("Do you want upper case letters?");
       if (containsUpperCase) {
-        var changeUpperCase = alert ("Your password will have upper case letters");
+        var changeUpperCase = alert ("Your password will have upper case letters.");
       }
       else {
-        alert ("Your password will NOT have upper case letters");
+        alert ("Your password will NOT have upper case letters.");
       }
+
+    containsNum = confirm ("Do you want numbers?");
+      if (containsNum) {
+        var changeNum = alert ("Your password will have numbers.");
+      }
+      else {
+        alert ("Your password will NOT have numbers.");
+      }
+
   
 
   
