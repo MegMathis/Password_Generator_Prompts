@@ -43,6 +43,13 @@ charNum = prompt ("How many characters do you want in your password?  Please cho
         alert ("Your password will NOT have numbers.");
       }
 
+      containsSpecialChar = confirm ("Do you want special characters?");
+        if (containsSpecialChar) {
+          var changeSpecialChar = alert ("Your password will have special characters");
+        }
+        else {
+          alert ("Your password will NOT have special characters.");
+        }
   
 
   
