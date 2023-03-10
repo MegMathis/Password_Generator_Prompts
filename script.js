@@ -6,6 +6,10 @@ function generatePassword () {
 
 
 
+
+  
+  return "Generated password will go here"
+
 }
 
 // Write password to the #password input
