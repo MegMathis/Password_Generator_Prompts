@@ -81,15 +81,14 @@ function generatePassword() {
 
   var finishedPassword = ""
   for (var i = 0; i < charNum; i++) {
-    var rng = [Math.floor(Math.random() * possibleCharacters.length)];
-    finishedPassword = finishedPassword + possibleCharacters [rng];
+    var randomNumberGenerator = [Math.floor(Math.random() * possibleCharacters.length)];
+    finishedPassword = finishedPassword + possibleCharacters [randomNumberGenerator];
   }
 
-
-
   return "Password Will Go Here"
+};
 
-}
+var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
