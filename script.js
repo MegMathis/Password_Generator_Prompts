@@ -7,7 +7,7 @@ function generatePassword() {
   var lowerCase = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
   var upperCase = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
   var specialChar = ['~', '`', '!', '@', '#', '$', '%', '^', '&', '*', '(',')', '=', '+', '?', '/', ':', ';', '<', '>', '-', ',']
-
+  var possibleCharacters = [];
 
   // 1. Prompt User for password criteria
   // a. password length 8 < 128
@@ -79,13 +79,13 @@ function generatePassword() {
 
   // pick random for length
 
-  var finishedPassword = ""
-  for (var i = 0; i < charNum; i++) {
-    var randomNumberGenerator = [Math.floor(Math.random() * possibleCharacters.length)];
+  let finishedPassword = ""
+  for (let i = 0; i < charNum; i++) {
+    let randomNumberGenerator = [Math.floor(Math.random() * possibleCharacters.length)];
     finishedPassword = finishedPassword + possibleCharacters [randomNumberGenerator];
   }
 
-  return "Password Will Go Here"
+  return finishedPassword;
 };
 
 var generateBtn = document.querySelector("#generate");
@@ -97,6 +97,7 @@ function writePassword() {
 
   passwordText.value = password;
 
+    
 }
 
 // Add event listener to generate button
