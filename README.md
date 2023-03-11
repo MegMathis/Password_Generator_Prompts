@@ -38,6 +38,10 @@ N/A
 
 ## Link to Deployment
 
+https://megmathis.github.io/Password_Generator_Prompts/
+
+https://github.com/MegMathis/Password_Generator_Prompts
+
 ## Credits
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN
