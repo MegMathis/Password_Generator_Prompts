@@ -18,4 +18,16 @@ After all selections have been made, a password is generated in the box.
 2. Click generate password
 3. Follow prompts
 
-## Screenshot
+## Screenshots
+
+![How Many Characters.](./assets/images/password_generator_screenshot_how_many_characters.png)
+
+![Upper Case Prompt.](./assets/images/password_generator_screenshot_uppercase_prompt.png)
+
+![Lower Case Prompt.](./assets/images/password_generator_screenshot_lowercase_prompt.png)
+
+![Number Prompt.](./assets/images/password_generator_screenshot_num_prompt.png)
+
+![Special Character Prompt.](./assets/images/password_generator_screenshot_special_char_prompt.png)
+
+![Generated Password.](./assets/images/generated_password.png)
