@@ -12,6 +12,10 @@ This password generator application is used to scramble upper case letters, lowe
 
 After all selections have been made, a password is generated in the box.
 
+## Installation
+
+N/A
+
 ## Usage
 
 1. Open in browser
@@ -31,3 +35,21 @@ After all selections have been made, a password is generated in the box.
 ![Special Character Prompt.](./assets/images/password_generator_screenshot_special_char_prompt.png)
 
 ![Generated Password.](./assets/images/generated_password.png)
+
+## Link to Deployment
+
+## Credits
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN
+
+https://dev.to/code_mystery/random-password-generator-using-javascript-6a
+
+https://www.w3schools.com/jsref/jsref_concat_string.asp
+
+https://www.w3schools.com/js/js_const.asp
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
+## License
+
+Please refer to LICENSE in repo.
