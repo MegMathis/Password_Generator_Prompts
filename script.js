@@ -62,6 +62,8 @@ function generatePassword() {
     var charValues = alert("Please choose at least one character type.");
   }
 
+  // grouping characters
+
   if (containsLowerCase) {
     possibleCharacters = possibleCharacters.concat(containsLowerCase);
   }
@@ -75,22 +77,16 @@ function generatePassword() {
     possibleCharacters = possibleCharacters.concat(containsSpecialChar);
   }
 
+  // pick random for length
+
+  var finishedPassword = ""
+  for (var i = 0; i < charNum; i++) {
+    var rng = [Math.floor(Math.random() * possibleCharacters.length)];
+    finishedPassword = finishedPassword + possibleCharacters [rng];
+  }
 
 
 
-
-
-
-
-
-
-
-  // 3. Generate password
-
-
-
-
-  // 4. Display the validated password on page
   return "Password Will Go Here"
 
 }
